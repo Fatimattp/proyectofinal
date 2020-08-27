@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+	<title>Login</title>
+	<!--link rel="stylesheet" href="estilo.css"-->
+
+</head>
+<body background="imagenes/bat.png">
+	<div align="center">
+		<a class="" href="http://localhost/proyectofinal/menufinal.html"> <button type="button" class="btn btn-primary">Inicio</button></a>
+	</div>
+	<form class="formu" align="center" action="validando.php" method="post">
+		<h2  class="titulo">BATALLA NAVAL</h2>
+		<div class="contenedor">
+		 <input type="text" placeholder=" Usuario" name="usuario" autocomplete="off"> </br> </br>
+
+		<input type="password" placeholder=" Password" name="clave" autocomplete="off"> </br> </br>
+
+		<input type="submit" value="Ingresar" >
+		
+		<a style="color: blue" href="http://localhost/proyectobatalla/registro.html"> Registrarse </a>
+		</div>
+	</form>
+
+</body>
+
+<style type="text/css">
+	body{
+	margin:1;
+	font-size:sans-serif;
+	background:204862;
+
+}
+h2{
+	color:#fff;
+	text-align:center;
+}
+.formu{
+	width:95%;
+	max-width:500px;
+	margin:auto;
+	background: hsla(   0.5turn , 50% ,50% , 0.5 );
+	border-radius:7px;
+}
+.titulo{
+	background-color: hsla(   0turn , 100% ,50% , 0.5 );
+	color:#fff;
+	padding:10px;
+	text-align:center;
+	font-weight:90px;
+	font-size:30px;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	border-bottom:5px solid crimson;
+}
+.contenedor{
+		padding:15px 30px;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+}
+</style>

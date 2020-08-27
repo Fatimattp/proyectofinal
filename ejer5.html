@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<tile><font color="black" size="30"></font></title>
+<link rel="stylesheet" href="estilos.css">
+<script src="validar.js"></script>
+</head>
+<body background="imagenes/batalla.jpg">
+	<div align="center">
+		<a class="" href="http://localhost/proyectofinal/menufinal.html"> <button type="button" class="btn btn-primary">Inicio</button></a>
+	</div>
+<h1 align="center" >Batalla Naval</h1>
+<form action="registrarbatalla.php" method="post"class="form-register" onsubmit="return validar();">
+<h2 align="center" class="form-titulo">Registrarse</h2>
+<div align="center" class="contenedor-inputs">
+<input type="text" id="nombre" name="nombre"placeholder="Nombre" class="input-48" required="" autocomplete="off"> </br> </br>
+<input type="text" id="apellidos" name="apellidos"placeholder="Apellidos" class="input-48" autocomplete="off" > </br> </br>
+<input type="email" id="correo" name="correo"placeholder="Correo" class="input-100" required=""> </br> </br>
+<input type="text" id="usuario" name="usuario"placeholder="Usuario" class="input-48" required="" autocomplete="off"> </br> </br>
+<input type="text"  name="txtclave"placeholder="Password" class="input-48" required="" autocomplete="off"> </br> </br>
+<input type="text" id="telefono" name="telefono"placeholder="Telefono" class="input-48" autocomplete="off"> </br> </br>
+<input type="submit" value="Registrar" class="bton-enviar">
+<p class="form-link">¿ya tienes una cuenta? <a href="http://localhost/proyectobatalla/formulario.html">Ingresa aqui</a></p>
+</div>
+</form>
+
+</body>
+</html>
+
+<style type="text/css">
+	
+</style>
